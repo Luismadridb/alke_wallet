@@ -1,0 +1,111 @@
+:root {
+  --color-principal: #0d6efd;
+  --color-secundario: #198754;
+  --color-fondo: #f4f6f9;
+}
+.navbar {
+  box-shadow: 0 2px 6px rgba(0,0,0,0.85);
+}
+.navbar .nav-link {
+  color: rgba(255, 255, 255, 0.85) !important;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+.nav-centro {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav-centro .nav-link {
+  font-weight: 500;
+}
+
+body {
+  background-color: #f7f7f7;
+  font-family: Arial, sans-serif;
+}
+.btn-primary {
+  background-color: var(--color-principal);
+  border: none;
+}
+
+.btn-success {
+  background-color: var(--color-secundario);
+}
+.btn:hover {
+  opacity: 0.9;
+}
+
+.card {
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+.login {
+  max-width: 300px;
+}
+
+.menu {
+  max-width: 800px;
+}
+
+/* Login card */
+.login-card {
+  max-width: 420px;        /* más angosto */
+  min-height: 420px;       /* más alto */
+  margin: 80px auto;       /* centrado vertical */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* centra el contenido */
+}
+
+/* Contenedor principal */
+.contenedor-principal {
+ max-width: 600px;
+ min-width: 200;
+  margin-top: 40px;
+  background-color: #ffffff;
+  padding: 100px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Títulos */
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Botones */
+.btn {
+  width: 100%;
+  margin-top: 10px;
+}
+
+/* Mensajes */
+.mensaje-redireccion {
+  margin-top: 15px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Formulario oculto (enviar dinero) */
+.formulario-oculto {
+  display: none;
+}
+
+/* Lista de movimientos */
+.movimiento {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}

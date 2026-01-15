@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ALKE Wallet - Enviar Dinero</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+
+<body>
+    <!-- NAVBAR CON HAMBURGUESA -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="menu.html">Alke Wallet</a>
+
+            <!-- BOTÓN HAMBURGUESA -->
+            <button class="navbar-toggler" type="button" 
+                    data-toggle="collapse" 
+                    data-target="#menuNavbar"
+                    aria-controls="menuNavbar"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- MENÚ -->
+            <div class="collapse navbar-collapse" id="menuNavbar">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="menu.html">Menú</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="deposit.html">Depositar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sendmoney.html">Enviar dinero</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="transactions.html">Movimientos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <div class="container contenedor-principal mt-5" style="max-width: 600px;">
+        <h2 class="text-center mb-4">Enviar Dinero</h2>
+        <div class="form-group">
+            <input type="text" id="busqueda" class="form-control" placeholder="Buscar por nombre o alias">
+        </div>
+        <div id="contacto" class="border p-2 mb-3">
+            <input type="radio" name="contacto" id="contacto1">
+            Luis Madrid - Banco Estado 
+        </div>
+        <button id="btnEnviar" class="btn btn-primary btn-block" style="display:none;">
+            Enviar dinero
+        </button>
+
+        <hr>
+        <button id="btnNuevoContacto" class="btn btn-success btn-block">
+            Agregar nuevo contacto
+        </button>
+
+        <div id="formNuevoContacto" style="display:none;">
+            <div class="form-group mt-3">
+                <input type="text" id="nombre" class="form-control" placeholder="Nombre y apellido">
+            </div>
+
+            <div class="form-group">
+                <input type="text" id="numero de cuenta" class="form-control" placeholder="Número de cuenta">
+            </div>
+
+            <div class="form-group">
+                <input type="text" id="alias" class="form-control" placeholder="Alias">
+            </div>
+
+            <div class="form-group">
+                <input type="text" id="banco" class="form-control" placeholder="Banco">
+            </div>
+
+            <button id="btnGuardarContacto" class="btn btn-success btn-block">
+                Guardar contacto
+            </button>
+
+            <button id="btnCancelar" class="btn btn-danger btn-block mt-2">
+                Cancelar
+            </button>
+        </div>
+        <div id="mensajeConfirmacion" class="mt-3"></div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="/assets/js/sendmoney.js"></script>
+</body>
+
+</html>
