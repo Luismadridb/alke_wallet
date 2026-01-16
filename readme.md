@@ -1,7 +1,8 @@
 # Proyecto Wallet – Módulo 2  
+
 **Fundamentos del Desarrollo Frontend**
 
-Este repositorio contiene el desarrollo del proyecto **Wallet**, realizado como parte del **Módulo 2 del Bootcamp**, cuyo objetivo es aplicar los fundamentos de HTML, CSS, JavaScript básico, Bootstrap y jQuery.
+Este repositorio contiene el desarrollo del proyecto Wallet, realizado como parte del Módulo 2 , cuyo objetivo es aplicar los fundamentos de HTML, CSS, JavaScript básico, Bootstrap y jQuery.
 
 ---
 
@@ -55,7 +56,7 @@ assets/
 
 ## Navegación
 
-Todas las pantallas incluyen un **navbar responsive**, desarrollado con Bootstrap, que permite:
+Todas las pantallas incluyen un navbar responsive, desarrollado con Bootstrap, que permite:
 
 - Navegar entre las distintas vistas
 - Adaptarse a pantallas móviles mediante menú hamburguesa
@@ -100,5 +101,5 @@ La lógica implementada cumple estrictamente con los contenidos del módulo:
 
 ## Autor
 
-Proyecto desarrollado por **Luis Madrid**  
-Bootcamp Desarrollo Frontend – Módulo 2
+Proyecto desarrollado por Luis Madrid
+

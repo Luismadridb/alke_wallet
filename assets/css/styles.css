@@ -1,72 +1,99 @@
+/* Definición de variables CSS */
 :root {
   --color-principal: #0d6efd;
   --color-secundario: #198754;
   --color-fondo: #f4f6f9;
 }
+/* Estilo para la navbar */
 .navbar {
   box-shadow: 0 2px 6px rgba(0,0,0,0.85);
 }
+
+/* Estilo para los enlaces de la navbar */
 .navbar .nav-link {
   color: rgba(255, 255, 255, 0.85) !important;
 }
 
+/* Estilo para la marca de la navbar */
 .navbar-brand {
   font-weight: bold;
 }
 
+/* Estilo para los enlaces de navegación */
 .nav-link:hover {
   text-decoration: underline;
 }
+
+/* Estilo para el contenedor de navegación centrado */
 .nav-centro {
   width: 100%;
   display: flex;
   justify-content: space-evenly;
 }
 
+/* Estilo para los enlaces de navegación en el centro */
 .nav-centro .nav-link {
   font-weight: 500;
 }
 
+/* Estilos generales */
 body {
   background-color: #f7f7f7;
   font-family: Arial, sans-serif;
 }
+
+/* Botón principal */
 .btn-primary {
   background-color: var(--color-principal);
   border: none;
 }
 
+/* Botón secundario */
 .btn-success {
   background-color: var(--color-secundario);
 }
+
+/* Efecto hover en los botones */
 .btn:hover {
   opacity: 0.9;
 }
 
+/* Tarjetas con sombra */
 .card {
   transition: transform 0.2s ease;
 }
 
+/* Efecto hover en las tarjetas */
 .card:hover {
   transform: scale(1.02);
 }
-
-.login {
-  max-width: 300px;
+/* Icono en la página de login */
+.icono-login {
+  font-size: 60px;          
+  color: #0d6efd;           
+  margin-bottom: -40px;
+  display: inline-block;
+  margin-top: -10px;
 }
 
+.icono-login {
+  font-size: 50px;
+  color: rgba(13, 110, 253, 0.9);
+}
+
+/* Menú principal */
 .menu {
   max-width: 800px;
 }
 
 /* Login card */
 .login-card {
-  max-width: 420px;        /* más angosto */
-  min-height: 420px;       /* más alto */
-  margin: 80px auto;       /* centrado vertical */
+  max-width: 420px;        
+  min-height: 420px;       
+  margin: 80px auto;       
   display: flex;
   flex-direction: column;
-  justify-content: center; /* centra el contenido */
+  justify-content: center; 
 }
 
 /* Contenedor principal */
