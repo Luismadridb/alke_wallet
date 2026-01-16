@@ -1,5 +1,13 @@
 # Proyecto Wallet – Módulo 2  
 
+# Entrega del proyecto
+Repositorio de Github
+https://github.com/Luismadridb/alke_wallet
+
+## Indicaciones
+- El proyecto se entrega comprimido en .zip
+- El código fuente está disponible en el repositorio de arriba
+
 **Fundamentos del Desarrollo Frontend**
 
 Este repositorio contiene el desarrollo del proyecto Wallet, realizado como parte del Módulo 2 , cuyo objetivo es aplicar los fundamentos de HTML, CSS, JavaScript básico, Bootstrap y jQuery.
